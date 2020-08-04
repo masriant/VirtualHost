@@ -9,5 +9,7 @@
               "email": "info.masrianto@gmail.com"
           }
       ],
-  "require": {}
+  "require": {
+    "twbs/bootstrap": "5.0.0-alpha1"
+  }
 }
