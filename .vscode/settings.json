@@ -1,0 +1,10 @@
+{
+  "window.closeWhenEmpty": true,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.cursorStyle": "underline",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true
+}

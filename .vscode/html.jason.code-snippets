@@ -1,0 +1,118 @@
+{
+	"PHP Tag": {
+	  "prefix": "php",
+	  "body": "<?php $1 ?>"
+	},
+	"Inline Echo": {
+	  "prefix": "phpp",
+	  "body": "<?= $$1; ?>"
+	},
+	"Input Label": {
+	  "prefix": "formel",
+	  "body": [
+		"<label>",
+		"\t${3:Username}",
+		"\t<input type=\"${1:text}\" name=\"${2:username}\">",
+		"</label>"
+	  ]
+	},
+	"My Form": {
+	  "prefix": "myform",
+	  "body": "<form method=\"${1|get,post|}\" action=\"$2\">$3</form>"
+	},
+	"Images": {
+	  "prefix": "img2",
+	  "body": [
+		"<img src=\"${1|img,images|}\"/<?= $${2:value}['${3:id}']; ?>\"$4>"
+	  ]
+	},
+	"Foreach V Sandikha G": {
+	  "prefix": "for2",
+	  "body": [
+		"<?php $$i = 1;",
+		"foreach ($$variable as $$row) : ?>",
+		"<?= $$i++; ?>",
+		"<?php endforeach; ?>"
+	  ]
+	},
+	"Foreach V Padang T": {
+	  "prefix": "for3",
+	  "body": [
+		"<?php $$no = 1;",
+		"foreach ($$variable as $$key => $$value) { ?>",
+		"<?= $$no++; ?>",
+		"<?php } ?>"
+	  ]
+	},
+	"DB Variable": {
+	  "prefix": "for1",
+	  "body": "<?= $$TableDB['$variableDB']; ?>"
+	},
+	"Session": {
+	  "prefix": "for41",
+	  "body": [
+		"<?php",
+		"session_start();",
+		"require '$1functions.php';",
+		"if (!isset($$2_SESSION['$3login'])) {",
+		"header(\"Location: $4login.php\");",
+		"exit; }",
+		"$$5parDB = $6query(\"SELECT * FROM $$7varDB\"); ?>"
+	  ]
+	},
+	"Session Login": {
+	  "prefix": "for40",
+	  "body": [
+		"<?php",
+		"if (isset($$_POST['login'])) {",
+		"$$login = login($$_POST); } ?>"
+	  ]
+	},
+	"Session Logout": {
+	  "prefix": "for42",
+	  "body": [
+		"<?php",
+		"session_start();",
+		"session_destroy();",
+		"header(\"Location: login.php\");",
+		"exit; ?>"
+	  ]
+	},
+	"Edit ID": {
+	  "prefix": "for5",
+	  "body": "<?= base_url('${1:text}/edit/' . $${2:value}['${3:id}']); ?>"
+	},
+	"Hapus ID": {
+	  "prefix": "for6",
+	  "body": "<?= base_url('${1:text}/hapus/' . $${2:value}['${3:id}']); ?>"
+	},
+	"Detail ID": {
+	  "prefix": "for7",
+	  "body": "<?= base_url('${1:text}/detail/' . $${2:value}['${3:id}']); ?>"
+	},
+	"Detail ID 2": {
+	  "prefix": "for8",
+	  "body": "<a href=\"detail.php?id=<?= $${1:value}['id']; ?>\">lihat detail</a>"
+	},
+	".cPanel.yml": {
+	  "prefix": "forcpanelyml",
+	  "body": [
+		"---",
+		"deployment:",
+		"  tasks:",
+		"    - export DEPLOYPATH=/home/cpanelUser/public_html/",
+		"    - export DEPLOYPATH=/home3/pw043040023/public_html/",
+		"    - /bin/cp -R * $DEPLOYPATH"
+	  ]
+	},
+	"cPanel yml": {
+	  "prefix": "forcpanel1",
+	  "body": [
+		"---",
+		"deployment:",
+		"  tasks:",
+		"    - export DEPLOYPATH=/home/lakipcoi/public_html/",
+		"    - /bin/cp -R * $DEPLOYPATH"
+	  ]
+	}
+  }

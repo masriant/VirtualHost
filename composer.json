@@ -1,0 +1,13 @@
+{
+  "name": "masriant/virtual-host",
+  "description": "Hanya untuk latihan composer ",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+          {
+              "name": "masriant",
+              "email": "info.masrianto@gmail.com"
+          }
+      ],
+  "require": {}
+}
