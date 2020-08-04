@@ -10,6 +10,7 @@
           }
       ],
   "require": {
-    "twbs/bootstrap": "5.0.0-alpha1"
+    "twbs/bootstrap": "5.0.0-alpha1",
+    "almasaeed2010/adminlte": "~3.0"
   }
 }

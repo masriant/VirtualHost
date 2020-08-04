@@ -1,5 +1,46 @@
 [
     {
+        "name": "almasaeed2010/adminlte",
+        "version": "v3.0.5",
+        "version_normalized": "3.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+            "reference": "6b8b69261f1aacbb4be037c934f3c3652e6dff27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/6b8b69261f1aacbb4be037c934f3c3652e6dff27",
+            "reference": "6b8b69261f1aacbb4be037c934f3c3652e6dff27",
+            "shasum": ""
+        },
+        "time": "2020-05-19T20:41:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Colorlib"
+            }
+        ],
+        "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
+        "homepage": "http://adminlte.io/",
+        "keywords": [
+            "JS",
+            "admin",
+            "back-end",
+            "css",
+            "less",
+            "responsive",
+            "template",
+            "theme",
+            "web"
+        ]
+    },
+    {
         "name": "twbs/bootstrap",
         "version": "v5.0.0-alpha1",
         "version_normalized": "5.0.0.0-alpha1",
