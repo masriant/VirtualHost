@@ -1,4 +1,2 @@
-<?php 
-$title = "Index | Lakip";
-
-?>
+<?php
+$data = 'Index Lakip';

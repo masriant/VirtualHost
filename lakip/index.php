@@ -1,50 +1,52 @@
-<?php 
-include '../template/header.php';
+<?php
+include '../template/v5_header.php';
 ?>
-    
-    <div class="container">
-    <img src="../img/work.jpg" class="img-fluid" alt="...">
-    
-    
-    
-    <div class="clearfix">
-  <img src="../img/browser.jpg" class="col-md-6 float-md-right mb-3 ml-md-3" alt="...">
+
+<div class="container">
+  <img src="../img/work.jpg" class="img-fluid" alt="...">
 
 
-</div>
+
+  <div class="clearfix">
+    <img src="../img/browser.jpg" class="col-md-6 float-md-right mb-3 ml-md-3" alt="...">
+
+
+  </div>
 
   <div class="row">
     <div class="col">
-    <p>
-    Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lantaarnpaal quam venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Nullam quis risus eget urna salsa tequila vel eu leo. Donec id elit non mi porta gravida at eget metus.
-  </p>
+      <p>
+        Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lantaarnpaal quam
+        venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Nullam quis risus eget urna salsa
+        tequila vel eu leo. Donec id elit non mi porta gravida at eget metus.
+      </p>
 
     </div>
     <div class="col-6">
-    <h1>Hello, world!</h1>
-    <p>
-  Donec ullamcorper nulla non metus auctor fringilla. Nulla 
-vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac 
-cursus commodo, tortor mauris paddenstoel nibh, ut fermentum 
-massa justo sit amet risus. Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit.
-</p>
+      <h1>Hello, world!</h1>
+      <p>
+        Donec ullamcorper nulla non metus auctor fringilla. Nulla
+        vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac
+        cursus commodo, tortor mauris paddenstoel nibh, ut fermentum
+        massa justo sit amet risus. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
+      </p>
     </div>
     <div class="col">
-    <p>
-   Sed posuere consectetur est at 
-lobortis. Etiam porta sem malesuada 
-magna mollis euismod. Duis mollis, 
-est non commodo luctus, nisi erat 
-porttitor ligula, eget lacinia odio 
-sem nec elit. Id nullam tellus relem 
-amet commodo telemque olemit. Sed 
-posuere consectetur est at lobortis. 
-Maecenas sed diam eget risus varius 
-blandit sit amet non magna. Cras 
-justo odio, dapibus ac facilisis in, 
-egestas eget quam.
- </p>
+      <p>
+        Sed posuere consectetur est at
+        lobortis. Etiam porta sem malesuada
+        magna mollis euismod. Duis mollis,
+        est non commodo luctus, nisi erat
+        porttitor ligula, eget lacinia odio
+        sem nec elit. Id nullam tellus relem
+        amet commodo telemque olemit. Sed
+        posuere consectetur est at lobortis.
+        Maecenas sed diam eget risus varius
+        blandit sit amet non magna. Cras
+        justo odio, dapibus ac facilisis in,
+        egestas eget quam.
+      </p>
     </div>
   </div>
 
@@ -81,5 +83,5 @@ egestas eget quam.
 
 
 
-<?php 
-include '../template/footer.php'; ?>
+<?php
+include '../template/v5_footer.php'; ?>

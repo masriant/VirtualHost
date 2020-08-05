@@ -1,7 +1,8 @@
-<?php include 'template/header.php' ?>
-<?php include 'template/navbar.php' ?>
-<?php include 'template/sidebar.php' ?>
-<?php include 'template/wrapper.php' ?>
+<?php include '../template/header.php' ?>
+<?php include '../template/head_dashboard.php' ?>
+<?php include '../template/navbar.php' ?>
+<?php include '../template/v_sidebar.php' ?>
+<?php include '../template/wrapper.php' ?>
 
 
 
@@ -95,4 +96,10 @@
 </section>
 <!-- /.content -->
 
-<?php include 'template/footer.php' ?>
+<?php include '../template/footer.php' ?>
+<?php include '../template/footer_dashboard.php' ?>
+
+
+</body>
+
+</html>

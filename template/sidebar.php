@@ -34,7 +34,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="/index.php" class="nav-link active">
+              <a href="index.php" class="nav-link active">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Dashboard v1</p>
               </a>
@@ -73,27 +73,27 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="../../index.php" class="nav-link">
+              <a href="lakip/index3.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Top Navigation</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+              <a href="lakip/project.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Top Navigation + Sidebar</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/layout/boxed.html" class="nav-link">
+              <a href="lakip/add.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Boxed</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/layout/fixed-sidebar.html" class="nav-link">
+              <a href="lakip/detail.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Fixed Sidebar</p>
+                <p>Detail</p>
               </a>
             </li>
             <li class="nav-item">

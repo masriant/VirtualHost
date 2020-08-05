@@ -1,5 +1,5 @@
 <?php
-include '../template/header.php';
+include '../template/v5_header.php';
 ?>
 
 <div class="container">
@@ -16,7 +16,9 @@ include '../template/header.php';
   <div class="row">
     <div class="col">
       <p>
-        Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lantaarnpaal quam venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Nullam quis risus eget urna salsa tequila vel eu leo. Donec id elit non mi porta gravida at eget metus.
+        Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lantaarnpaal quam
+        venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Nullam quis risus eget urna salsa
+        tequila vel eu leo. Donec id elit non mi porta gravida at eget metus.
       </p>
 
     </div>
@@ -82,4 +84,4 @@ include '../template/header.php';
 
 
 <?php
-include '../template/footer.php'; ?>
+include '../template/v5_footer.php'; ?>
