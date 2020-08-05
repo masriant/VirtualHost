@@ -4,8 +4,6 @@
 <?php include 'template/wrapper.php' ?>
 
 
-
-
 <!-- Main content -->
 <section class="content">
   <div class="container-fluid">
