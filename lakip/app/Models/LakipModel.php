@@ -6,11 +6,11 @@ use CodeIgniter\Model;
 
 class LakipModel extends Model
 {
-  protected $table = 'orang';
+  protected $table = 'lakip';
   protected $useTimestamps = true;
-  protected $allowedFields = ['nama', 'alamat'];
+  protected $allowedFields = ['nama', 'alamat', 'kodeqr'];
 
-  // public function getOrang($slug = false)
+  // public function getLakip($slug = false)
   // {
   //   if ($slug == false) {
   //     return $this->findAll();
@@ -21,10 +21,10 @@ class LakipModel extends Model
 
   public function search($keyword)
   {
-    // $builder = $this->table('orang');
+    // $builder = $this->table('lakip');
     // $builder->like('name', $keyword);
     // return $builder;
 
-    return $this->table('orang')->like('nama', $keyword)->orLike('alamat', $keyword);
+    return $this->table('lakip')->like('nama', $keyword)->orLike('alamat', $keyword)->orLike('kodeqr', $keyword);
   }
 }

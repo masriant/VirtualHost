@@ -5,7 +5,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h4 class="m-0 text-dark"><?= $page; ?></h4>
+          <h4 class="m-0 text-dark"><?= $halaman; ?></h4>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">

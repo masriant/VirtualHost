@@ -5,7 +5,7 @@
 <div class="container">
   <div class="row">
     <div class="col-6">
-      <form>
+      <form action="" method="POST">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Cari..." name="keyword" autofocus>
           <button class="btn btn-outline-secondary" type="submit" name="submit">Cari</button>
@@ -24,14 +24,18 @@
               <th scope="col">No</th>
               <th scope="col">Nama</th>
               <th scope="col">Alamat</th>
+              <th scope="col">Kode</th>
               <th scope="col">Detail</th>
             </tr>
           </thead>
           <tbody>
+            <?php $i = 1 + (10 * ($currentPage - 1)); ?>
+            <?php foreach ($lakip as $k) : ?>
             <tr>
-              <td>1</td>
-              <td>Masrianto</td>
-              <td>JakartaJakartaJakartaJakartaJakartaJakartaJakarta</td>
+              <td><?= $i++; ?></td>
+              <td><?= $k['nama']; ?></td>
+              <td><?= $k['alamat']; ?></td>
+              <td><?= $k['kodeqr']; ?></td>
               <td>
                 <a href="" class="btn btn-sm btn-success"><i class="fa fa-id-card" aria-hidden="true"></i>
                   Detail</a>
@@ -39,8 +43,10 @@
                 <a href="" class="btn btn-sm btn-warning"><i class="far fa-trash-alt" aria-hidden="true"></i>Hapus</a>
               </td>
             </tr>
+            <?php endforeach; ?>
           </tbody>
         </table>
+        <?= $pager->links('id', 'lakip_pagination'); ?>
       </div>
     </div>
   </div>
