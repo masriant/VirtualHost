@@ -6,6 +6,7 @@
   <div class="row">
     <div class="col-6">
       <form action="" method="POST">
+        <?= csrf_field() ?>
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Cari..." name="keyword" autofocus>
           <button class="btn btn-outline-secondary" type="submit" name="submit">Cari</button>
