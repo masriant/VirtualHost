@@ -1,0 +1,783 @@
+CRITICAL - 2020-08-07 05:11:14 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 05:29:40 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 05:29:48 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 05:30:14 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 05:42:08 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 11:36:35 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 34, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/index', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(40): view('lakip/index', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->index()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 11:36:53 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 34, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/index', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(40): view('lakip/index', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->index()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 11:36:56 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 34, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/index', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(40): view('lakip/index', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->index()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 11:37:02 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 34, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/index', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(40): view('lakip/index', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->index()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 12:55:48 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 14:07:44 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 295
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(295): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 14:14:20 --> Call to a member function paginate() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 14:14:22 --> Call to a member function paginate() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 14:17:51 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:17:53 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:19:06 --> Call to a member function paginate() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 14:19:16 --> Call to a member function paginate() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 14:19:41 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:19:41 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:21:21 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:21:37 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:21:41 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(65): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:23:31 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(66): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:23:49 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(66): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:25:17 --> syntax error, unexpected '=', expecting ']'
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('lakip/cari')
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('lakip/cari')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 14:25:19 --> syntax error, unexpected '=', expecting ']'
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('lakip/cari')
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('lakip/cari')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 14:26:29 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:26:51 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:26:52 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:27:58 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:28:13 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:29:52 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:30:09 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 14:32:09 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 35, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(68): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 15:50:10 --> Cannot use object of type App\Models\LakipModel as array
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#2 D:\VirtualHost\lakip\app\Controllers\Lakip.php(70): view('lakip/cari', Array)
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#8 {main}
+CRITICAL - 2020-08-07 15:51:46 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 47, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(70): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 15:51:48 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 47, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(70): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 15:53:16 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 15:53:18 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:09:41 --> Illegal string offset 'nama'
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\VirtualHost\\...', 49, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(84): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('3')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 16:09:49 --> Illegal string offset 'nama'
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\VirtualHost\\...', 49, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(84): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('2')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 16:10:42 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 46, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(84): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('2')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 16:10:48 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 46, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(84): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('2')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 16:11:23 --> Call to undefined method App\Models\LakipModel::show
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('show', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('2')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:11:27 --> Call to undefined method App\Models\LakipModel::show
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('show', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('7')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:17:13 --> Call to undefined method App\Models\LakipModel::show
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('show', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:17:17 --> Call to undefined method App\Models\LakipModel::show
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('show', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:17:40 --> Call to undefined method App\Models\LakipModel::all
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('all', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:17:41 --> Call to undefined method App\Models\LakipModel::all
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('all', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:17:46 --> Call to undefined method App\Models\LakipModel::all
+#0 D:\VirtualHost\lakip\app\Controllers\Lakip.php(75): CodeIgniter\Model->__call('all', Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-07 16:19:15 --> Call to a member function db() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:19:17 --> Call to a member function db() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:27:37 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:28:15 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:28:16 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:28:19 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:28:41 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:28:42 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:28:44 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:29:34 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:29:35 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:29:37 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 16:29:38 --> Too few arguments to function App\Controllers\Lakip::cari(), 0 passed in D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 17:19:12 --> Call to a member function db() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('1')
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 17:20:51 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 65, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(88): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('3')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 17:21:00 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 65, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(88): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('3')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 17:21:01 --> Invalid argument supplied for foreach()
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\VirtualHost\\...', 65, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(88): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('3')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-07 17:47:28 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 17:47:42 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 17:47:42 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 17:59:36 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:06:35 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:06:36 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('3')
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:06:47 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:09:08 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:10:37 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:10:37 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:12:56 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:14:39 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:15:03 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:17:06 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:17:07 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:17:44 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:17:44 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:17:45 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:17:47 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:18:56 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:19:06 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:19:06 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:19:07 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:19:08 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}
+CRITICAL - 2020-08-07 18:19:10 --> Call to a member function post() on null
+#0 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->getDataFromAjx()
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#5 {main}

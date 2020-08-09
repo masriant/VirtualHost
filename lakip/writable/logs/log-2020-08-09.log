@@ -1,0 +1,32 @@
+CRITICAL - 2020-08-09 04:22:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-09 04:26:43 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index('98')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-09 04:38:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index('4')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-09 04:41:24 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
