@@ -49,7 +49,8 @@ class Database extends \CodeIgniter\Database\Config
 		'encrypt'  => false,
 		'compress' => false,
 		'strictOn' => false,
-		'failover' => [],
+		// 'failover' => [],
+		'failover' => array(),
 		'port'     => 3308,
 	];
 

@@ -19,12 +19,22 @@ class PdfModel extends Model
   //   return $this->where(['slug' => $slug])->first();
   // }
 
-  // public function search($keyword)
-  // {
-  //   // $builder = $this->table('lakip');
-  //   // $builder->like('name', $keyword);
-  //   // return $builder;
+  public function getPdf($id = false)
+  {
+    if ($id === false) {
+      return $this->findAll();
+    } else {
+      return $this->getWhere(['id' => $id]);
+    }
+  }
 
-  //   return $this->table('lakip')->like('nama', $keyword)->orLike('alamat', $keyword)->orLike('kodeqr', $keyword);
-  // }
+  public function getPrint()
+  {
+    return $this->db->table('lakip')->get()->getResultArray();
+  }
+
+  public function editPrint($id)
+  {
+    return $this->db->table('lakip')->where('id', $id)->get()->getRowArray();
+  }
 }

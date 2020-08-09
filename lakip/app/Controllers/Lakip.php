@@ -125,6 +125,19 @@ class Lakip extends BaseController
     return view('lakip/v_print', $data);
   }
 
+  public function list()
+  {
+    $lakip = $this->lakipModel->getLakip();
+
+    $data = [
+      'halaman' => 'Printer ',
+      'title' => 'Printer',
+      'lakip' => $lakip,
+    ];
+
+    return view('lakip/list_print', $data);
+  }
+
 
 
 

@@ -2,22 +2,30 @@
 
 namespace App\Controllers;
 
-use App\Models\LakipModel;
 use Mpdf\Mpdf;
 use App\Models\PdfModel;
+use CodeIgniter\Database\Query;
+
+// use App\Models\LakipModel;
 
 class Pdf extends BaseController
 {
-    protected $PdfModel;
-    protected $LakipModel;
     public function __construct()
     {
         $this->pdfModel = new PdfModel();
+        $this->Mpdf = new Mpdf;
     }
     public function index()
     {
+        $lakip = $this->pdfModel->getPdf();
 
-        $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
+        $data = [
+            'halaman' => 'Printer ',
+            'title' => 'Printer',
+            'lakip' => $lakip,
+        ];
+
+        $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4', 'L']);
         // $mpdf = new \Mpdf\Mpdf();
         $mpdf = new \Mpdf\Mpdf([
             'margin_top' => 30,
@@ -32,41 +40,45 @@ class Pdf extends BaseController
     <p>Website : www.lakip.co.id E-mail : admin@lakip.co.id Telp./Fax. 021-42885718</p>
     |');
 
-
-        $html = ' Halaman pertama';
-        $mpdf->WriteHTML($html);
-        $mpdf->AddPage();
-
+        // <link rel="stylesheet" href="/css/print.css">
+        // $html = ' Halaman pertama';
+        // $mpdf->WriteHTML($html);
+        // $mpdf->AddPage();
         $mpdf->WriteHTML('Masrianto');
 
 
-        $html = '
-        
-<!DOCTYPE html>
-<html lang="en">
-<head>
+        $html = '<!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sertifikat</title>
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h3>List Peserta</h3>
+<table class="table table-bordered table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Kode</th>
+            </tr>
+          </thead>';
+        $i = 1;
+        foreach ($lakip as $row) {
+            $html  .= '<tr>
+               <td>' . $i++ . '</td>
+               <td>' . $row["nama"] . '</td>
+               <td>' . $row["alamat"] . '</td>
+               <td>' . $row["kodeqr"] . '</td>      
+               </tr>';
+        }
+        $html .= '</table>
 </body>
 </html>';
-
+        $tgl_cetak = date('d F Y H:i:s');
+        $mpdf->SetFooter(base_url() . '|{PAGENO}|' . $tgl_cetak);
 
         $mpdf->WriteHTML($html);
 
@@ -87,10 +99,7 @@ class Pdf extends BaseController
 
 
 
-
-
-
-        return redirect()->to($mpdf->Output('filename.pdf', 'I'));
+        return redirect()->to($mpdf->Output('Laporan-x.pdf', 'I'));
     }
 
     //--------------------------------------------------------------------
