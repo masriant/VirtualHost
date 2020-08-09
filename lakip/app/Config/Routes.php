@@ -41,6 +41,8 @@ $routes->get('/lakip/list', 'Lakip::list_print');
 $routes->get('/pdf/(:segment)', 'Pdf::index/$1');
 $routes->get('/lakip/edit/(:segment)', 'Lakip::edit/$1');
 $routes->get('/lakip/(:any)', 'Lakip::detail/$1');
+$routes->get('/', 'Students::index');
+$routes->get('/', 'Post::index');
 
 // $routes->add('login/(.+)', 'Auth::login/$1');
 // $routes->add('users/profile', 'Users::profile', ['as' => 'profile']);
