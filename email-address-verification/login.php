@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_SESSION["user_id"])) {
-	header("location:home.php");
+  header("location:home.php");
 }
 
 ?>
@@ -25,20 +25,20 @@ if (isset($_SESSION["user_id"])) {
       <br />
 
       <?php
-		if (isset($_GET["register"])) {
-			if ($_GET["register"] == 'success') {
-				echo '
+    if (isset($_GET["register"])) {
+      if ($_GET["register"] == 'success') {
+        echo '
      <h1 class="text-success">Email Successfully verified, Registration Process Completed...</h1>
      ';
-			}
-		}
+      }
+    }
 
-		if (isset($_GET["reset_password"])) {
-			if ($_GET["reset_password"] == 'success') {
-				echo '<h1 class="text-success">Password change Successfully, Now you can login with your new password</h1>';
-			}
-		}
-		?>
+    if (isset($_GET["reset_password"])) {
+      if ($_GET["reset_password"] == 'success') {
+        echo '<h1 class="text-success">Password change Successfully, Now you can login with your new password</h1>';
+      }
+    }
+    ?>
 
       <div class="row">
         <div class="col-md-3">&nbsp;</div>
@@ -50,7 +50,7 @@ if (isset($_SESSION["user_id"])) {
             <div class="panel-body">
               <form method="POST" id="login_form">
                 <div class="form-group" id="email_area">
-                  <label>Enter Email Address</label>
+                  <label>Enter Email Address rasmuslerdorf</label>
                   <input type="text" name="user_email" id="user_email" class="form-control" />
                   <span id="user_email_error" class="text-danger"></span>
                 </div>

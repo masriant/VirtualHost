@@ -43,7 +43,8 @@ INSERT INTO `register_user` (`register_user_id`, `user_name`, `user_email`, `use
 (1, 'John Smith', 'web-tutorial@programmer.net', '$2y$10$vdMwAmoRJfep8Vl4BI0QDOXArOCTOMbFs6Ja15qq3NEkPUBBtffD2', 'c74c4bf0dad9cbae3d80faa054b7d8ca', 'verified');
 
 --
--- Indexes for dumped tables
+-- Indexes for dumped tables 
+-- INSERT INTO `register_user` (`register_user_id`, `user_name`, `user_email`, `user_password`, `user_activation_code`, `user_email_status`, `user_otp`, `user_datetime`, `user_avatar`) VALUES (NULL, 'John Smith', 'ssostiami@gmail.com', '$2y$10$vdMwAmoRJfep8Vl4BI0QDOXArOCTOMbFs6Ja15qq3NEkPUBBtffD2', 'c74c4bf0dad9cbae3d80faa054b7d8ca', 'verified', '123456', '2020-08-09 00:00:00', 'default.jpg');
 --
 
 --

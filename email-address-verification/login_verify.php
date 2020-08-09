@@ -106,20 +106,23 @@ if (isset($_POST["action"])) {
 
           $mail->IsSMTP();
 
-          $mail->Host = 'smtpout.secureserver.net';
+          // $mail->Host = 'smtpout.secureserver.net';
+          $mail->Host = 'smtp.google.com';
 
           $mail->Port = '80';
 
           $mail->SMTPAuth = true;
 
-          $mail->Username = 'xxxxxxxxxxxxxx';
-          $mail->Password = 'xxxxxxxxxxxxxx';
+          // $mail->Username = 'xxxxxxxxxxxxxx';
+          // $mail->Password = 'xxxxxxxxxxxxxx';
+          $mail->Username = 'masrianto.registrasi@gmail.com';
+          $mail->Password = 'PejantanTangguh2019';
 
           $mail->SMTPSecure = '';
 
-          $mail->From = 'tutorial@webslesson.info';
+          $mail->From = 'info.masrianto@gmail.com';
 
-          $mail->FromName = 'Webslesson';
+          $mail->FromName = 'Masrianto';
 
           $mail->AddAddress($_SESSION["user_email"]);
 

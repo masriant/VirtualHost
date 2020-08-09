@@ -40,3 +40,101 @@ CRITICAL - 2020-08-09 07:36:00 --> Class 'Mpdf\Mpdf' not found
 #3 D:\OOneDrive\Malas Ngoding\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 D:\OOneDrive\Malas Ngoding\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\OOneDrive\\Ma...')
 #5 {main}
+CRITICAL - 2020-08-09 14:34:42 --> Undefined index: id
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\VirtualHost\\...', 23, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(73): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-09 14:35:09 --> Undefined index: id
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\VirtualHost\\...', 23, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(73): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-09 14:36:30 --> Undefined index: id
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\VirtualHost\\...', 25, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(73): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-09 14:37:25 --> Undefined index: id
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\VirtualHost\\...', 24, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(73): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-09 14:38:45 --> Undefined index: id
+#0 D:\VirtualHost\lakip\app\Views\lakip\cari.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\VirtualHost\\...', 25, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/cari', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(73): view('lakip/cari', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->cari()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-09 14:40:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index('1')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-09 14:41:19 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index('9')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-09 14:41:31 --> Trying to access array offset on value of type null
+#0 D:\VirtualHost\lakip\app\Views\lakip\detail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\VirtualHost\\...', 20, Array)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\VirtualHost\\...')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('lakip/detail', Array, true)
+#3 D:\VirtualHost\lakip\app\Controllers\Lakip.php(86): view('lakip/detail', Array)
+#4 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Lakip->detail('lakip')
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lakip))
+#6 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#9 {main}
+CRITICAL - 2020-08-09 14:42:58 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index()
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}
+CRITICAL - 2020-08-09 14:49:48 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\VirtualHost\lakip\app\Controllers\Pdf.php on line 102
+#0 D:\VirtualHost\lakip\app\Controllers\Pdf.php(102): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pdf->index('22')
+#2 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+#3 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\VirtualHost\lakip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\VirtualHost\lakip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\VirtualHost\\...')
+#6 {main}

@@ -89,7 +89,7 @@
         <div class="col-12">
           <a href="<?= base_url(); ?>/lakip/print/<?= $lakip['id']; ?>" target="_blank" class="btn btn-default"><i
               class="fas fa-print"></i>
-            Print</a>
+            Preview</a>
 
           <a href="<?= base_url(); ?>/pdf/<?= $lakip['id']; ?>" target="_blank" class="btn btn-primary float-right"
             style="margin-right: 5px;">

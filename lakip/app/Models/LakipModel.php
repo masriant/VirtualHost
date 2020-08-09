@@ -22,7 +22,9 @@ class LakipModel extends Model
   public function search($keyword)
   {
     // $builder = $this->table('lakip');
-    // $builder->like('name', $keyword);
+    // $builder->like('name', $data);
+    // $builder->like('alamat', $data);
+    // $builder->like('kodeqr', $data);
     // return $builder;
 
     return $this->table('lakip')->like('nama', $keyword)->orLike('alamat', $keyword)->orLike('kodeqr', $keyword);
@@ -40,16 +42,10 @@ class LakipModel extends Model
   }
 
   // public function getdataAjaxInponow($data)
-  public function getdataAjax($data)
+  public function jumlah($id)
   {
-    // $builder = $this->table('lakip');
-    // $builder->like('name', $data);
-    // $builder->like('alamat', $data);
-    // $builder->like('kodeqr', $data);
-    // return $builder;
-
-
-    return $this->table('lakip')->like('nama', '$data%')->orLike('alamat', '$data%')->orLike('kodeqr', '$data%');
+    $query = $this->db->query('SELECT * FROM lakip');
+    return $this->table('lakip')->getFieldCount($id);
 
     // $queryaku = "SELECT nama, alamat FROM lakip WHERE nama LIKE '$data%' OR alamat LIKE '$data%'";
     // $query = $this->db->query($queryaku);
