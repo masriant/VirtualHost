@@ -1,6 +1,6 @@
 <?php
-include '../include/data.php';
-$title = $data
+// include '../include/data.php';
+// $title = $data
 ?>
 <!DOCTYPE html>
 <html>
