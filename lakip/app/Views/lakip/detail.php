@@ -34,6 +34,7 @@
             </div>
             <div class="card-footer">
               <div class="text-right">
+
                 <a href="<?= base_url(); ?>/lakip/edit/<?= $lakip['id']; ?>" class="btn btn-sm btn-primary">
                   <i class="fas fa-edit"></i>
                 </a>
