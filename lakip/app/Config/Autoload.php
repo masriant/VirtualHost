@@ -45,6 +45,9 @@ class Autoload extends AutoloadConfig
 		'App'         => APPPATH,
 		'Mpdf'        => APPPATH . 'ThirdParty/mpdf/src',
 		'Mpdf'        => APPPATH . 'Libraries',
+		'phpSpreadsheet'		=> APPPATH . 'Libraries',
+		'sheet'				=> APPPATH . 'Libraries',
+		'Spreadsheet'	=> APPPATH . 'Libraries',
 	];
 	/**
 	 * -------------------------------------------------------------------
