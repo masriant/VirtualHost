@@ -35,13 +35,13 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="/" class="nav-link active">
+              <a href="<?= base_url(); ?>" class="nav-link active">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Bootstrap v5</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="lakip" class="nav-link">
+              <a href="<?= base_url(); ?>/lakip" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>AdminLTE v4</p>
               </a>
@@ -50,10 +50,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a href="lakip" class="nav-link">
+          <a href="<?= base_url(); ?>/datatables" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
             <p>
-              LAKIP
+              Datatables
               <span class="right badge badge-danger">New</span>
             </p>
           </a>
@@ -88,6 +88,62 @@
             </li>
           </ul>
         </li>
+        <li class="nav-item has-treeview">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-chart-pie"></i>
+            <p>
+              Menu Detail
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="<?= base_url(); ?>/data" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Data</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= base_url(); ?>/pdf" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>PDF</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= base_url(); ?>/lakip/cari" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Cari</p>
+              </a>
+            </li>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/convert/spreadsheet" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Spreadsheet</p>
+          </a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/post" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Post</p>
+          </a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/students" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Students</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/convert/sheet" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Xlsx</p>
+          </a>
+        </li>
+      </ul>
+      </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->
