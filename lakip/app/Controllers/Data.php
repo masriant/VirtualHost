@@ -2,14 +2,37 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controllers;
 use App\Models\DatatablesModel;
+use CodeIgniter\Controllers;
+
 
 class Data extends BaseController
 {
+  public function __construct()
+  {
+    // $this->lakipModel = new LakipModel();
+    $this->datalakip = new DatatablesModel();
+  }
   public function index()
   {
     return view('datatables/index_data');
+  }
+  public function kwitansi()
+  {
+
+    // $nilai = $this->datalakip->penyebut($nilai);
+    // $nilai = $this->datalakip->terbilang($nilai);
+
+    $this->datalakip = new DatatablesModel();
+
+    $data = [
+      'title' => 'Kwitansi',
+      'halaman' => 'kwitansi',
+      // 'terbilang' => $this->lakipModel,
+      // 'terbilang' => $terbilang($nilai);
+    ];
+
+    return view('datatables/kwitansi', $data);
   }
 
   public function listdata()

@@ -6,7 +6,7 @@ use Mpdf\Mpdf;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use App\Models\PdfModel;
-use CodeIgniter\Database\Query;
+// use CodeIgniter\Database\Query;
 
 // use App\Models\LakipModel;
 
@@ -264,15 +264,6 @@ class Convert extends BaseController
 
 
 
-
-
-
-
-
-
-
-
-
     // for ($i = 1; $i <= 20; $i++) {
     //   $sheet->setCellValue('A1', 'Hello World !');
     //   $spreadsheet->getActiveSheet()->setCellValue('B' . $i, "nama $i");
@@ -288,16 +279,6 @@ class Convert extends BaseController
 
 
     // return redirect()->to($writer->save('php://output'));
-
-
-
-
-
-
-
-
-
-
 
 
     // $writer->save('write.xls');
@@ -385,7 +366,8 @@ class Convert extends BaseController
 
 
 
-    $writer->save('php://output');
+    // $writer->save('php://output');
+    return $writer->save('php://output');
 
     // $writer = \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf($spreadsheet);
     // $writer = new \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf($spreadsheet);
@@ -406,14 +388,6 @@ class Convert extends BaseController
 
 
 
-
-
-
-
-
-
-
-
     // // Create new Spreadsheet object OK <===
     // $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
     // $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xlsx');
@@ -421,16 +395,6 @@ class Convert extends BaseController
 
     $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
     // $writer->save("05featuredemo.xlsx");
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -556,15 +520,6 @@ class Convert extends BaseController
     $writer = new Xlsx($spreadsheet);
 
 
-
-
-
-
-
-
-
-
-
     // for ($i = 1; $i <= 20; $i++) {
     //   $sheet->setCellValue('A1', 'Hello World !');
     //   $spreadsheet->getActiveSheet()->setCellValue('B' . $i, "nama $i");
@@ -580,16 +535,6 @@ class Convert extends BaseController
 
 
     // return redirect()->to($writer->save('php://output'));
-
-
-
-
-
-
-
-
-
-
 
 
     // $writer->save('write.xls');

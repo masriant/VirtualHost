@@ -142,6 +142,12 @@
             <p>Xlsx</p>
           </a>
         </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/data/kwitansi" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Kwitansi</p>
+          </a>
+        </li>
       </ul>
       </li>
       </ul>
