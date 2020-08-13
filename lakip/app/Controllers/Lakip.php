@@ -40,6 +40,19 @@ class Lakip extends BaseController
     return view('lakip/index', $data);
   }
 
+  public function create()
+  {
+    // session();
+    $data = [
+      'halaman' => 'Create',
+      'title' => 'Form Tambah Data',
+      'validation' => \Config\Services::validation()
+    ];
+
+    return view('lakip/create', $data);
+  }
+
+
   //--------------------------------------------------------------------
   public function cari()
   {

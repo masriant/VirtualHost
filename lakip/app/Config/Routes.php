@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/lakip/cari', 'Lakip::cari');
+$routes->get('/lakip/create', 'Lakip::create');
 $routes->get('/lakip/print/(:segment)', 'Lakip::print/$1');
 $routes->get('/lakip/printer/(:segment)', 'Lakip::printer/$1');
 $routes->get('/lakip/Convert/(:segment)', 'Lakip::spreadsheet/$1');

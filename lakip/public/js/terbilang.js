@@ -303,3 +303,6 @@ function hapusNolDiDepan(nilai) {
   }
   return nilai;
 }
+
+
+// terbilang $nilai
