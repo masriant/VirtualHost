@@ -30,26 +30,26 @@ class LakipModel extends Model
     return $this->table('lakip')->like('nama', $keyword)->orLike('alamat', $keyword)->orLike('kodeqr', $keyword);
   }
 
-  public function detail($id)
-  {
-    // if ($id == false) {
-    //   return $this->findAll();
-    // }
+  // public function detail($id)
+  // {
+  //   // if ($id == false) {
+  //   //   return $this->findAll();
+  //   // }
 
-    return $this->where(['id' => $id])->first();
+  //   return $this->where(['id' => $id])->first();
 
-    // return $this->table('lakip')->like('nama', $id)->orLike('alamat', $id)->orLike('kodeqr', $id);
-  }
+  //   // return $this->table('lakip')->like('nama', $id)->orLike('alamat', $id)->orLike('kodeqr', $id);
+  // }
 
   // public function getdataAjaxInponow($data)
-  public function jumlah($id)
-  {
-    $query = $this->db->query('SELECT * FROM lakip');
-    return $this->table('lakip')->getFieldCount($id);
+  // public function jumlah($id)
+  // {
+  //   $query = $this->db->query('SELECT * FROM lakip');
+  //   return $this->table('lakip')->getFieldCount($id);
 
-    // $queryaku = "SELECT nama, alamat FROM lakip WHERE nama LIKE '$data%' OR alamat LIKE '$data%'";
-    // $query = $this->db->query($queryaku);
+  //   // $queryaku = "SELECT nama, alamat FROM lakip WHERE nama LIKE '$data%' OR alamat LIKE '$data%'";
+  //   // $query = $this->db->query($queryaku);
 
-    // return $query->result_array();
-  }
+  //   // return $query->result_array();
+  // }
 }

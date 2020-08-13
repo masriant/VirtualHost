@@ -69,19 +69,25 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="lakip" class="nav-link">
+              <a href="<?= base_url(); ?>/lakip" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Index</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="lakip/add" class="nav-link">
+              <a href="<?= base_url(); ?>/lakip/create" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Add</p>
+                <p>Tambah</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="lakip/edit" class="nav-link">
+              <a href="<?= base_url(); ?>/lakip/cari" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Cari</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= base_url(); ?>/lakip/edit" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Edit</p>
               </a>
@@ -109,12 +115,7 @@
                 <p>PDF</p>
               </a>
             </li>
-            <li class="nav-item">
-              <a href="<?= base_url(); ?>/lakip/cari" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Cari</p>
-              </a>
-            </li>
+
         </li>
         <li class="nav-item">
           <a href="<?= base_url(); ?>/convert/spreadsheet" class="nav-link">

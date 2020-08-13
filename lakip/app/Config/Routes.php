@@ -34,18 +34,20 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/lakip/cari', 'Lakip::cari');
 $routes->get('/lakip/create', 'Lakip::create');
-$routes->get('/lakip/print/(:segment)', 'Lakip::print/$1');
+$routes->get('/lakip/print/(:num)', 'Lakip::print/$1');
 $routes->get('/lakip/printer/(:segment)', 'Lakip::printer/$1');
-$routes->get('/lakip/Convert/(:segment)', 'Lakip::spreadsheet/$1');
-$routes->get('/lakip/Convert/(:segment)', 'Lakip::pdf/$1');
-$routes->get('/lakip/list', 'Lakip::list_print');
 $routes->get('/pdf/(:segment)', 'Pdf::index/$1');
 $routes->get('/lakip/edit/(:segment)', 'Lakip::edit/$1');
 $routes->get('/lakip/(:any)', 'Lakip::detail/$1');
-$routes->get('/', 'Students::index');
-$routes->get('/', 'Post::index');
-$routes->get('/', 'Phpexcel::index');
-$routes->get('/', 'Datatables::index');
+// $routes->get('/', 'Post::index');
+// $routes->get('/', 'Datatables::index');
+
+// $routes->get('/lakip/Convert/(:segment)', 'Lakip::spreadsheet/$1');
+// $routes->get('/lakip/Convert/(:segment)', 'Lakip::pdf/$1');
+// $routes->get('/lakip/list', 'Lakip::list_print');
+
+// $routes->get('/', 'Students::index');
+// $routes->get('/', 'Phpexcel::index');
 
 // $routes->add('login/(.+)', 'Auth::login/$1');
 // $routes->add('users/profile', 'Users::profile', ['as' => 'profile']);

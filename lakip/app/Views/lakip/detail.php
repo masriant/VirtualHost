@@ -12,7 +12,7 @@
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
           <div class="card bg-light">
             <div class="card-header text-muted border-bottom-0">
-              Digital Strategist
+              Detail User
             </div>
             <div class="card-body pt-0">
               <div class="row">
@@ -25,6 +25,10 @@
                       <?= $lakip['kodeqr']; ?> </li>
                     <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #:
                       <?= $lakip['kodeqr']; ?></li>
+                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-plus"></i></span> Add #:
+                      <?= $lakip['created_at']; ?></li>
+                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-user-edit"></i></span> Updated At #:
+                      <?= $lakip['updated_at']; ?></li>
                   </ul>
                 </div>
                 <div class="col-5 text-center">

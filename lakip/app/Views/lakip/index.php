@@ -20,6 +20,11 @@
     <div class="col-12">
       <div class="table-responsive{-sm|-md|-lg|-xl|-xxl}">
         <caption>List of All users <a href="<?= base_url(); ?>/lakip/cari"> Cari</a> </caption>
+        <?php if (session()->getFlashdata('pesan')) : ?>
+        <div class="alert alert-success" role="alert">
+          <?= session()->getFlashdata('pesan'); ?>
+        </div>
+        <?php endif; ?>
         <table class="table table-bordered table-hover caption-top">
           <thead class="table-dark">
             <tr>

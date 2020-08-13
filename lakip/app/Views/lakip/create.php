@@ -13,20 +13,24 @@
           <form class="form-horizontal" action="/lakip/save" method="post" enctype="multipart/form-data">
             <?= csrf_field(); ?>
 
+
+
             <div class="form-group row">
               <label for="nama" class="col-sm-2 col-form-label">Nama</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="nama" name="nama" autofocus value="<?= old('nama'); ?>">
+                <input type="text" class="form-control <?= ($validation->hasError('nama')) ? 'is-invalid' : ''; ?>"
+                  id="nama" name="nama" placeholder="nama" value="<?= old('nama'); ?>">
                 <div class="invalid-feedback">
                   <?= $validation->getError('nama'); ?>
                 </div>
               </div>
             </div>
+
             <div class="form-group row">
               <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="alamat" name="alamat" placeholder="alamat"
-                  value="<?= old('alamat'); ?>">
+                <input type="text" class="form-control <?= ($validation->hasError('alamat')) ? 'is-invalid' : ''; ?>"
+                  id="alamat" name="alamat" placeholder="alamat" value="<?= old('alamat'); ?>">
                 <div class="invalid-feedback">
                   <?= $validation->getError('alamat'); ?>
                 </div>
@@ -35,8 +39,8 @@
             <div class="form-group row">
               <label for="kodeqr" class="col-sm-2 col-form-label">Kode QR</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="kodeqr" name="kodeqr" placeholder="kodeqr"
-                  value="<?= old('kodeqr'); ?>">
+                <input type="text" class="form-control <?= ($validation->hasError('kodeqr')) ? 'is-invalid' : ''; ?>"
+                  id="kodeqr" name="kodeqr" placeholder="kodeqr" value="<?= old('kodeqr'); ?>">
                 <div class="invalid-feedback">
                   <?= $validation->getError('kodeqr'); ?>
                 </div>
