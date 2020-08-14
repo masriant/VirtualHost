@@ -926,36 +926,118 @@ class Lakip extends BaseController
     // return $writer->save($inputFileName . $tgl_cetak . ".pdf");
   }
 
-  public function getconversi()
+  public function getconversipdf()
   {
     $lakip = $this->lakipModel->findAll();
-
+    $this->Mpdf = new Mpdf;
     $spreadsheet = new Spreadsheet();
-    $no = 1;
-    foreach ($lakip as $row)
-      $htmlString = '<table>
-                  <tr>
-                      <th>No</th>
-                      <th>Nama</th>
-                      <th>Alamat</th>
-                      <th>Kode QR</th>
-                  </tr>';
-    $htmlString .= '           
-                  <tr>
-                  <td>. no++ .</td>
-                  <td>. $row["nama"] .</td>
-                  <td>. $row["alamat"] .</td>
-                  <td>. $row["kodeqr"] .</td>
-                  </tr>
-                  <tr>
-                      <td>Jakarta, World</td>
-                  </tr>
-              </table>';
 
+    $html = '<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat</title>
+</head>
+<body>
+<h3>List Peserta</h3>
+<table class="table table-bordered table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Kode</th>
+            </tr>
+          </thead>';
+    $i = 1;
+    foreach ($lakip as $row) {
+      $html  .= '<tr>
+               <td>' . $i++ . '</td>
+               <td>' . $row["nama"] . '</td>
+               <td>' . $row["alamat"] . '</td>
+               <td>' . $row["kodeqr"] . '</td>      
+               </tr>';
+    }
+    $html .= '</table>
+</body>
+</html>';
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Html();
-    $spreadsheet = $reader->loadFromString($htmlString);
+    $spreadsheet = $reader->loadFromString($html);
+
+    $filename = "Data ";
+    $tgl_cetak = date('dmY His');
+
+    /* Here there will be some code where you create $spreadsheet */
+
+    // redirect output to client browser
+    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    header('Content-Disposition: attachment;filename="' . $filename . $tgl_cetak . '.pdf"');
+    header('Cache-Control: max-age=0');
+
+    $writer = new \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf($spreadsheet);
+    // $writer->save('List Data PDF.pdf');
+    return $writer->save('php://output');
+  }
+
+  public function getconversixlsx()
+  {
+    $lakip = $this->lakipModel->findAll();
+    $spreadsheet = new Spreadsheet();
+
+    $html = '<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat</title>
+</head>
+<body>
+<h3>List Peserta</h3>
+<table class="table table-bordered table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Kode</th>
+            </tr>
+          </thead>';
+    $no = 1;
+    if (@$_GET['id'] != '') {
+      $lakip = $row->lakip(@$_GET['id']);
+    } else {
+      $lakip = $row->lakip();
+    }
+    while ($lakip = $lakip->fetch_object()) {
+
+      // }
+      // foreach ($lakip as $row) {
+      $html  .= '<tr>
+               <td>' . $no++ . '</td>
+               <td>' . $row["nama"] . '</td>
+               <td>' . $row["alamat"] . '</td>
+               <td>' . $row["kodeqr"] . '</td>      
+               </tr>';
+    }
+    $html .= '</table>
+</body>
+</html>';
+    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Html();
+    $spreadsheet = $reader->loadFromString($html);
+
+    $filename = "Data ";
+    $tgl_cetak = date('dmY His');
+
+    /* Here there will be some code where you create $spreadsheet */
+
+    // redirect output to client browser
+    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    header('Content-Disposition: attachment;filename="' . $filename . $tgl_cetak . '.xlsx"');
+    header('Cache-Control: max-age=0');
 
     $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xlsx');
-    $writer->save('write.xlsx');
+    // $writer->save('List Data XLSX.xlsx');
+    return $writer->save('php://output');
   }
 }

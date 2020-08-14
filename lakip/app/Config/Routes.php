@@ -41,7 +41,8 @@ $routes->get('/lakip/edit/(:segment)', 'Lakip::edit/$1');
 $routes->get('/lakip/spreadsheet', 'Lakip::spreadsheet');
 $routes->get('/lakip/pdf', 'Lakip::getpdf');
 $routes->get('/lakip/xlsx', 'Lakip::getxlsx');
-$routes->get('/lakip/conversi', 'Lakip::getconversi');
+$routes->get('/lakip/convert-pdf', 'Lakip::getconversipdf');
+$routes->get('/lakip/convert-xlsx', 'Lakip::getconversixlsx');
 $routes->get('/lakip/(:any)', 'Lakip::detail/$1');
 
 
