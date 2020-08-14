@@ -39,6 +39,9 @@ $routes->get('/lakip/printer/(:segment)', 'Lakip::printer/$1');
 $routes->get('/pdf/(:segment)', 'Pdf::index/$1');
 $routes->get('/lakip/edit/(:segment)', 'Lakip::edit/$1');
 $routes->get('/lakip/spreadsheet', 'Lakip::spreadsheet');
+$routes->get('/lakip/pdf', 'Lakip::getpdf');
+$routes->get('/lakip/xlsx', 'Lakip::getxlsx');
+$routes->get('/lakip/conversi', 'Lakip::getconversi');
 $routes->get('/lakip/(:any)', 'Lakip::detail/$1');
 
 

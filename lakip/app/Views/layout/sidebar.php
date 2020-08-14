@@ -89,7 +89,7 @@
             <li class="nav-item">
               <a href="<?= base_url(); ?>/lakip/spreadsheet" target="_blank" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Eksport Xlsx</p>
+                <p>Eksport Spreadsheet</p>
               </a>
             </li>
         </li>
@@ -97,6 +97,20 @@
           <a href="<?= base_url(); ?>/lakip/pdf" target="_blank" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
             <p>Eksport PDF</p>
+          </a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/lakip/xlsx" target="_blank" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Eksport XLSX</p>
+          </a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/lakip/conversi" target="_blank" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Eksport</p>
           </a>
         </li>
       </ul>

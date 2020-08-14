@@ -8,6 +8,7 @@ use Mpdf\Mpdf;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
+
 class Lakip extends BaseController
 {
   protected $lakipModel;
@@ -611,9 +612,7 @@ class Lakip extends BaseController
     // $spreadsheet->getSheetByName("File-" . $tgl_cetak . " - Copy");
 
 
-    // $class = new \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf::class;
-    // \PhpOffice\PhpSpreadsheet\IOFactory::registerWriter('Pdf', $class);
-    // $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Pdf');
+
 
 
 
@@ -625,5 +624,339 @@ class Lakip extends BaseController
     // $writer->writeAllSheets()->save("05feature.pdf");
 
     // return redirect()->to($writer->save('php://output'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  public function getXlsx()
+  {
+    $lakip = $this->lakipModel->findAll();
+
+    $spreadsheet = new Spreadsheet();
+    // $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
+    $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+
+    $spreadsheet->getProperties()
+      ->setCreator("Masrianto")
+      ->setLastModifiedBy("www.lakip.co.id")
+      ->setTitle("LAKIP.CO.ID")
+      ->setSubject("Office 2007 XLSX LAKIP Document")
+      ->setDescription("Lembaga Administrasi Keuangan dan Ilmu Pemerintahan")
+      ->setKeywords("Lembaga Administrasi Keuangan dan Ilmu Pemerintahan")
+      ->setCategory("Result Laporan");
+
+
+    $spreadsheet->setActiveSheetIndex(0);
+    // $spreadsheet->setActiveSheetIndexByName('DataSheet');
+    $spreadsheet->getActiveSheet()
+      ->setCellValue('A1', 'No')
+      ->setCellValue('B1', 'Nama')
+      ->setCellValue('C1', 'Jabatan')
+      ->setCellValue('D1', 'Alamat')
+      ->setCellValue('E1', 'Kode')
+      ->setCellValue('F1', 'Check-IN')
+      ->setCellValue('G1', 'Check-OUT')
+      ->setCellValue('H1', 'Kontribusi');
+
+
+
+    $no = 1;
+    $x = 3;
+    $dibuat = date('Ymd');
+    $sel = 3;
+    $kontribusi = 4500000;
+    foreach ($lakip as $row) {
+      $spreadsheet->getActiveSheet()
+        ->setCellValue('A' . $x, $no++)
+        ->setCellValue('B' . $x, $row['nama'])
+        ->setCellValue('C' . $x, 'jabatan')
+        ->setCellValue('D' . $x, $row['alamat'])
+        ->setCellValue('E' . $x, $row['kodeqr'])
+        ->setCellValue('F' . $x, $dibuat)
+        // ->setCellValue('G' . $x, '=SUM(F' . $sel++ . '+3)')
+        ->setCellValue('G' . $x, '=SUM(F' . $sel++ . '+3)')
+        ->setCellValue('H' . $x, $kontribusi);
+      $x++;
+    }
+
+    $spreadsheet->getActiveSheet()->getPageSetup()->setRowsToRepeatAtTopByStartAndEnd(1, 2);
+    $spreadsheet->getActiveSheet()->getPageSetup()->setPrintArea('A:H');
+    // $spreadsheet->getActiveSheet()->getPageSetup()->setPrintArea('A1:D102');
+    // $spreadsheet->getActiveSheet()->getCell('A1')->setValue(19);
+    // $spreadsheet->getActiveSheet()->getStyle('A1')->getNumberFormat()
+    //     ->setFormatCode('0000'); // will show as 0019 in Excel
+
+    $spreadsheet->getDefaultStyle()->getFont()->setName('Arial');
+    $spreadsheet->getDefaultStyle()->getFont()->setSize(9);
+
+    $spreadsheet->getActiveSheet()->getStyle('A1:H2')
+      // ->getAlignment()->setVertical(\PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_TOP);
+      ->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER);
+
+    $spreadsheet->getActiveSheet()->mergeCells('A1:A2');
+    $spreadsheet->getActiveSheet()->mergeCells('B1:B2');
+    $spreadsheet->getActiveSheet()->mergeCells('C1:C2');
+    $spreadsheet->getActiveSheet()->mergeCells('D1:D2');
+    $spreadsheet->getActiveSheet()->mergeCells('E1:E2');
+    $spreadsheet->getActiveSheet()->mergeCells('F1:F2');
+    $spreadsheet->getActiveSheet()->mergeCells('G1:G2');
+    $spreadsheet->getActiveSheet()->mergeCells('H1:H2');
+
+    // $spreadsheet->getActiveSheet()->getStyle('A')->getNumberFormat()
+    //   ->setFormatCode('0000'); // will show as 0019 in Excel
+
+    // $spreadsheet->getActiveSheet()->getStyle('A')->getNumberFormat()
+    //   ->setFormatCode('0000');
+
+    $spreadsheet->getActiveSheet()->getStyle('F')
+      ->getNumberFormat()
+      ->setFormatCode(\PhpOffice\PhpSpreadsheet\Style\NumberFormat::FORMAT_DATE_YYYYMMDDSLASH);
+
+    // $spreadsheet->getActiveSheet()->getStyle('G')
+    //   ->getNumberFormat()
+    //   ->setFormatCode(\PhpOffice\PhpSpreadsheet\Style\NumberFormat::FORMAT_DATE_YYYYMMDDSLASH);
+
+
+    // $drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+    // $drawing->setName('Logo');
+    // $drawing->setDescription('Logo');
+    // $drawing->setPath('./assets/lakip.jpeg');
+    // $drawing->setHeight(36);
+
+    // $drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\HeaderFooterDrawing();
+    //     $drawing->setName('logo');
+    //     $drawing->setPath('../public/assets/lakip.jpeg');
+    //     $drawing->setHeight(36);
+    //     $spreadsheet->getActiveSheet()->getHeaderFooter()
+    //       ->addImage($drawing, \PhpOffice\PhpSpreadsheet\Worksheet\HeaderFooter::IMAGE_HEADER_LEFT);
+
+    $spreadsheet->getActiveSheet()->getColumnDimension('A')->setWidth(5);
+    $spreadsheet->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('D')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('E')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('F')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('G')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('H')->setVisible(true);
+
+    $spreadsheet->getActiveSheet()->getPageMargins()->setHeader(0.5);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setFooter(0.5);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setTop(0.7);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setRight(0.7);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setLeft(0.7);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setBottom(0.7);
+
+    $spreadsheet->getActiveSheet()->getHeaderFooter()
+      ->setOddFooter('&L&B' . $spreadsheet->getProperties()->getTitle() . '&RPage &P of &N');
+    // $spreadsheet->getActiveSheet()->getPageSetup()
+    //   ->setOrientation(\PhpOffice\PhpSpreadsheet\Worksheet\PageSetup::ORIENTATION_LANDSCAPE);
+    $spreadsheet->getActiveSheet()->getPageSetup()
+      ->setPaperSize(\PhpOffice\PhpSpreadsheet\Worksheet\PageSetup::PAPERSIZE_A4);
+    $spreadsheet->getActiveSheet()->getPageSetup()->setFitToWidth(1);
+    $spreadsheet->getActiveSheet()->getPageSetup()->setFitToHeight(0);
+    $spreadsheet->getActiveSheet()->getPageSetup()->setHorizontalCentered(true);
+    // $spreadsheet->getActiveSheet()->getPageSetup()->setVerticalCentered(false);
+
+
+    // $sheet = $spreadsheet->getActiveSheet();
+    // $sheet->setCellValue('C1', 'Hello World !');
+
+
+
+    $inputFileName = 'Laporan ';
+    $tgl_cetak = date('dmY His');
+    // $filename = 'Data ';
+
+    // header('Content-Type: application/vnd.ms-excel');
+    // header('Content-Disposition: attachment;filename="' . $filename . $tgl_cetak . '.xlsx"');
+    // header('Cache-Control: max-age=0');
+
+    // $writer->save($inputFileName);
+
+
+    // $writer = new Xlsx($spreadsheet);
+    // $writer->save('Uji Coba.xlsx');
+    return $writer->save($inputFileName . $tgl_cetak . ".xlsx");
+    // return $writer->save('php://output');
+  }
+
+  public function getPdf()
+  {
+    $lakip = $this->lakipModel->findAll();
+
+    $spreadsheet = new Spreadsheet();
+    $writer = new \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf($spreadsheet);
+
+    $spreadsheet->getProperties()
+      ->setCreator("Masrianto")
+      ->setLastModifiedBy("www.lakip.co.id")
+      ->setTitle("LAKIP.CO.ID")
+      ->setSubject("Office 2007 XLSX LAKIP Document")
+      ->setDescription("Lembaga Administrasi Keuangan dan Ilmu Pemerintahan")
+      ->setKeywords("Lembaga Administrasi Keuangan dan Ilmu Pemerintahan")
+      ->setCategory("Result Laporan");
+
+
+
+    $spreadsheet->getActiveSheet()
+      ->setCellValue('A1', 'No')
+      ->setCellValue('B1', 'Nama')
+      ->setCellValue('C1', 'Jabatan')
+      ->setCellValue('D1', 'Alamat')
+      ->setCellValue('E1', 'Kode')
+      ->setCellValue('F1', 'Check-IN')
+      ->setCellValue('G1', 'Check-OUT')
+      ->setCellValue('H1', 'Kontribusi');
+
+
+
+    $no = 1;
+    $x = 3;
+    $dibuat = date('d');
+    $sel = 3;
+    $kontribusi = 4500000;
+    foreach ($lakip as $row) {
+      $spreadsheet->getActiveSheet()
+        ->setCellValue('A' . $x, $no++)
+        ->setCellValue('B' . $x, $row['nama'])
+        ->setCellValue('C' . $x, 'jabatan')
+        ->setCellValue('D' . $x, $row['alamat'])
+        ->setCellValue('E' . $x, $row['kodeqr'])
+        ->setCellValue('F' . $x, $dibuat)
+        // ->setCellValue('G' . $x, '=SUM(F' . $sel++ . '+3)')
+        ->setCellValue('G' . $x, '=SUM(F' . $sel++ . '+3)')
+        ->setCellValue('H' . $x, $kontribusi);
+      $x++;
+    }
+
+    $spreadsheet->getActiveSheet()->getPageSetup()->setRowsToRepeatAtTopByStartAndEnd(1, 2);
+    $spreadsheet->getActiveSheet()->getPageSetup()->setPrintArea('A:H');
+    // $spreadsheet->getActiveSheet()->getPageSetup()->setPrintArea('A1:D102');
+
+    $spreadsheet->getActiveSheet()->getColumnDimension('A')->setWidth(5);
+    $spreadsheet->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('D')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('E')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('F')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('G')->setVisible(true);
+    $spreadsheet->getActiveSheet()->getColumnDimension('H')->setVisible(true);
+
+    $spreadsheet->getActiveSheet()->getPageMargins()->setTop(0.5);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setRight(0.7);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setLeft(0.7);
+    $spreadsheet->getActiveSheet()->getPageMargins()->setBottom(0.5);
+
+    $spreadsheet->getActiveSheet()->getHeaderFooter()
+      ->setOddFooter('&L&B' . $spreadsheet->getProperties()->getTitle() . '&RPage &P of &N');
+    $spreadsheet->getActiveSheet()->getPageSetup()
+      ->setPaperSize(\PhpOffice\PhpSpreadsheet\Worksheet\PageSetup::PAPERSIZE_A4);
+
+
+    // $class = new \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf::class;
+    // \PhpOffice\PhpSpreadsheet\IOFactory::registerWriter('Pdf', $class);
+    // $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Pdf');
+
+    // $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
+    // $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+    // $writer = new Xlsx($spreadsheet);
+    // $writer->save("05featuredemo.xlsx");
+
+
+
+
+
+
+    // return $writer->save('php://output');
+
+
+
+
+
+
+
+
+    // $sheet = $spreadsheet->getActiveSheet();
+    // $sheet->setCellValue('C1', 'Hello World !');
+
+    // Set cell A1 with a string value
+    // $spreadsheet->getActiveSheet()->setCellValue('A1', 'PhpSpreadsheet');
+
+    // Set cell A2 with a numeric value
+    // $spreadsheet->getActiveSheet()->setCellValue('A2', 12345.6789);
+
+    // Set cell A3 with a boolean value
+    // $spreadsheet->getActiveSheet()->setCellValue('A3', TRUE);
+
+    // Set cell A4 with a formula
+    // $spreadsheet->getActiveSheet()->setCellValue(
+    //   'A4',
+    //   '=IF(A3, CONCATENATE(A1, " ", A2), CONCATENATE(A2, " ", A1))'
+    // );
+
+    $inputFileName = 'Laporan ';
+    $tgl_cetak = date('dmY His');
+    // // $filename = 'Data ';
+
+    // // header('Content-Type: application/vnd.ms-excel');
+    // // header('Content-Disposition: attachment;filename="' . $filename . $tgl_cetak . '.xlsx"');
+    // // header('Cache-Control: max-age=0');
+
+    // // $writer->save($inputFileName);
+
+
+
+    // // return $writer->save('php://output');
+    // $writer->writeAllSheets()->save("05feature.pdf");
+    return $writer->writeAllSheets()->save($inputFileName . $tgl_cetak . ".pdf");
+    // return $writer->save($inputFileName . $tgl_cetak . ".pdf");
+  }
+
+  public function getconversi()
+  {
+    $lakip = $this->lakipModel->findAll();
+
+    $spreadsheet = new Spreadsheet();
+    $no = 1;
+    foreach ($lakip as $row)
+      $htmlString = '<table>
+                  <tr>
+                      <th>No</th>
+                      <th>Nama</th>
+                      <th>Alamat</th>
+                      <th>Kode QR</th>
+                  </tr>';
+    $htmlString .= '           
+                  <tr>
+                  <td>. no++ .</td>
+                  <td>. $row["nama"] .</td>
+                  <td>. $row["alamat"] .</td>
+                  <td>. $row["kodeqr"] .</td>
+                  </tr>
+                  <tr>
+                      <td>Jakarta, World</td>
+                  </tr>
+              </table>';
+
+    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Html();
+    $spreadsheet = $reader->loadFromString($htmlString);
+
+    $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xlsx');
+    $writer->save('write.xlsx');
   }
 }
