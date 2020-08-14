@@ -700,10 +700,13 @@ class Lakip extends BaseController
     // $spreadsheet->getActiveSheet()->getCell('A1')->setValue(19);
     // $spreadsheet->getActiveSheet()->getStyle('A1')->getNumberFormat()
     //     ->setFormatCode('0000'); // will show as 0019 in Excel
-
+    $spreadsheet->getActiveSheet()->getSheetView()->setZoomScale(75);
     $spreadsheet->getDefaultStyle()->getFont()->setName('Arial');
     $spreadsheet->getDefaultStyle()->getFont()->setSize(9);
 
+
+    $worksheet = $spreadsheet->createSheet();
+    $worksheet->setTitle('LAKIP');
     $spreadsheet->getActiveSheet()->getStyle('A1:H2')
       // ->getAlignment()->setVertical(\PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_TOP);
       ->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER);
@@ -732,11 +735,12 @@ class Lakip extends BaseController
     //   ->setFormatCode(\PhpOffice\PhpSpreadsheet\Style\NumberFormat::FORMAT_DATE_YYYYMMDDSLASH);
 
 
-    // $drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
-    // $drawing->setName('Logo');
-    // $drawing->setDescription('Logo');
-    // $drawing->setPath('./assets/lakip.jpeg');
-    // $drawing->setHeight(36);
+    $drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+    $drawing->setName('Logo');
+    $drawing->setDescription('Logo');
+    $drawing->setPath('./assets/lakip.jpeg');
+    $drawing->setCoordinates('A1');
+    $drawing->setHeight(36);
 
     // $drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\HeaderFooterDrawing();
     //     $drawing->setName('logo');
@@ -773,26 +777,21 @@ class Lakip extends BaseController
     // $spreadsheet->getActiveSheet()->getPageSetup()->setVerticalCentered(false);
 
 
-    // $sheet = $spreadsheet->getActiveSheet();
-    // $sheet->setCellValue('C1', 'Hello World !');
-
-
-
-    $inputFileName = 'Laporan ';
+    $filename = "Data ";
     $tgl_cetak = date('dmY His');
-    // $filename = 'Data ';
 
-    // header('Content-Type: application/vnd.ms-excel');
-    // header('Content-Disposition: attachment;filename="' . $filename . $tgl_cetak . '.xlsx"');
-    // header('Cache-Control: max-age=0');
+    /* Here there will be some code where you create $spreadsheet */
 
-    // $writer->save($inputFileName);
+    // redirect output to client browser
+    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    header('Content-Disposition: attachment;filename="' . $filename . $tgl_cetak . '.xlsx"');
+    header('Cache-Control: max-age=0');
 
+    $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xlsx');
+    // $writer->save('php://output');
 
-    // $writer = new Xlsx($spreadsheet);
-    // $writer->save('Uji Coba.xlsx');
-    return $writer->save($inputFileName . $tgl_cetak . ".xlsx");
-    // return $writer->save('php://output');
+    // return $writer->save($inputFileName . $tgl_cetak . ".xlsx");
+    return $writer->save('php://output');
   }
 
   public function getPdf()
