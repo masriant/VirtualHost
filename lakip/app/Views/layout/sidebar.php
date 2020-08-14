@@ -87,68 +87,75 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?= base_url(); ?>/lakip/edit" class="nav-link">
+              <a href="<?= base_url(); ?>/lakip/spreadsheet" target="_blank" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Edit</p>
+                <p>Eksport Xlsx</p>
               </a>
             </li>
-          </ul>
         </li>
-        <li class="nav-item has-treeview">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-chart-pie"></i>
-            <p>
-              Menu Detail
-              <i class="right fas fa-angle-left"></i>
-            </p>
+        <li class="nav-item">
+          <a href="<?= base_url(); ?>/lakip/pdf" target="_blank" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Eksport PDF</p>
           </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url(); ?>/data" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Data</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="<?= base_url(); ?>/pdf" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>PDF</p>
-              </a>
-            </li>
+        </li>
+      </ul>
+      </li>
+      <li class="nav-item has-treeview">
+        <a href="#" class="nav-link">
+          <i class="nav-icon fas fa-chart-pie"></i>
+          <p>
+            Menu Detail
+            <i class="right fas fa-angle-left"></i>
+          </p>
+        </a>
+        <ul class="nav nav-treeview">
+          <li class="nav-item">
+            <a href="<?= base_url(); ?>/data" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>Data</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url(); ?>/pdf" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>PDF</p>
+            </a>
+          </li>
 
-        </li>
-        <li class="nav-item">
-          <a href="<?= base_url(); ?>/convert/spreadsheet" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Spreadsheet</p>
-          </a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a href="<?= base_url(); ?>/post" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Post</p>
-          </a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a href="<?= base_url(); ?>/students" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Students</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="<?= base_url(); ?>/convert/sheet" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Xlsx</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="<?= base_url(); ?>/data/kwitansi" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Kwitansi</p>
-          </a>
-        </li>
+      </li>
+      <li class="nav-item">
+        <a href="<?= base_url(); ?>/convert/spreadsheet" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Spreadsheet</p>
+        </a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a href="<?= base_url(); ?>/post" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Post</p>
+        </a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a href="<?= base_url(); ?>/students" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Students</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="<?= base_url(); ?>/convert/sheet" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Xlsx</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="<?= base_url(); ?>/data/kwitansi" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Kwitansi</p>
+        </a>
+      </li>
       </ul>
       </li>
       </ul>

@@ -38,7 +38,10 @@ $routes->get('/lakip/print/(:num)', 'Lakip::print/$1');
 $routes->get('/lakip/printer/(:segment)', 'Lakip::printer/$1');
 $routes->get('/pdf/(:segment)', 'Pdf::index/$1');
 $routes->get('/lakip/edit/(:segment)', 'Lakip::edit/$1');
+$routes->get('/lakip/spreadsheet', 'Lakip::spreadsheet');
 $routes->get('/lakip/(:any)', 'Lakip::detail/$1');
+
+
 // $routes->get('/', 'Post::index');
 // $routes->get('/', 'Datatables::index');
 
